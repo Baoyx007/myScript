@@ -50,3 +50,8 @@ print(decode_chunk_http(str,True))
 
 a = 1 if 2 > 3 else 4
 print(a)
+
+str_ascii = codecs.decode(str,'hex')
+print(str_ascii,type(str_ascii.decode()))
+list = str_ascii.split('\r\n\r\n',1)
+print(list[1])
