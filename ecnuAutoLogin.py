@@ -26,7 +26,7 @@ def login():
 # login()
 def login_without_requests():
     username = '51141500001'
-    password = 'byx100200ecnu'
+    password = ''
     header = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.99 Safari/537.36',
         'Host': "10.9.27.18",
